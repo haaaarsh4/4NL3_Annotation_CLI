@@ -132,7 +132,7 @@ def annotate(user, total_time, total_completed):
     while True:
         print("Total time spent:", round(total_time + (time.time() - session_start), 1), "seconds")
         row = random_row()
-        dialogue_text = row[0]
+        dialogue_text = row[1]
         
         print("\nDialogue:")
         print(dialogue_text)
