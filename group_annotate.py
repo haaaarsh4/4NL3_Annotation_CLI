@@ -108,7 +108,7 @@ def random_row():
     return row.values.tolist()[0]
 
 def save_annotation(dialogue, label, user):
-    with open(ANNOTATED_FILE, "a", newline="") as f:
+    with open(ANNOTATED_FILE, "a", newline="", encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow([
             dialogue,
