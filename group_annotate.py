@@ -12,11 +12,12 @@ users ={
 
 ANNOTATED_FILE = "annotated_dialogue.csv"
 PROGRESS_FILE = "progress.json"
+INPUT_FILE = "15_percent_subset.csv"
 
 try:
-    df = pd.read_csv('dialogue.csv')
+    df = pd.read_csv(INPUT_FILE)
 except FileNotFoundError:
-    print("Warning: dialogue.csv not found!!")
+    print("Warning: Input file not found!!")
 
 try:
     with open(PROGRESS_FILE, "r") as f:
