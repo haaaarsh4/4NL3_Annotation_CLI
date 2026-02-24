@@ -1,5 +1,7 @@
 # The Office Dialogue Annotator
 
+--------------------------------------------------
+
 This tool lets our team label dialogue lines from *The Office* and keeps track of progress for each annotator.
 
 It is simple to run and automatically saves your work.
@@ -130,3 +132,9 @@ pip install -r requirements.txt
 python annotator.py  
 
 Pick your user → label dialogue using the number mapping → press q to exit.
+
+## Credit and Licens
+--------------------------------------------------
+
+The data we used for annotated is derived from [https://github.com/maxwiseman/officequotes](https://github.com/maxwiseman/officequotes), which is licensed under the GNU Affero General Public License v3.0. 
+This repository is therefore also licensed under AGPL-3.0.
