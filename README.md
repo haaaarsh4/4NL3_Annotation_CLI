@@ -133,7 +133,7 @@ python annotator.py
 
 Pick your user → label dialogue using the number mapping → press q to exit.
 
-## Credit and Licens
+## Credit and License
 --------------------------------------------------
 
 The data we used for annotated is derived from [https://github.com/maxwiseman/officequotes](https://github.com/maxwiseman/officequotes), which is licensed under the GNU Affero General Public License v3.0. 
